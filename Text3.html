@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>申请表</title>
+</head>
+<body style="background-color:rgb(75, 156, 95);">
+    <p style="text-align: center;font-size: 30px;">申请表</p>
+    <hr style="border-bottom: 3px solid rgb(2, 90, 2) ;">
+    <br>
+    姓  名:  <input type="text" name="pid" value=""  size="20" maxlength="18"><br/>
+
+    感兴趣的职位：
+    <br>
+    <input type="checkbox" name="id1" value="web开发人员">web设计人员
+    <input type="checkbox" name="id1" value="web管理">web管理
+    <input type="checkbox" name="id1" value="web开发人员" checked>web开发人员
+
+    <br/>
+    其他要求:<br/>
+    <TEXTAREA name="textarea" cols="50" rows="15">包括薪水待遇、工作地点等</TEXTAREA>
+    <br>
+    <INPUT TYPE="radio" NAME="id2" VALUE="submit">发送确认信息
+    <br>
+    <b>经验</b>
+    <select name="exp" id="exp">
+        <option>1年</option>
+        <option>3年</option>
+        <option>5年</option>
+    </select>
+
+    <br>
+    <div style="text-align:center;vertical-align:middle;">
+     <INPUT name="button1" type="submit" value="确认">
+
+     <INPUT name="button2" type="reset" value="重置" style="margin: 50px;">
+    </div>
+</body>
+</html>

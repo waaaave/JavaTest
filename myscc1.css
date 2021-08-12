@@ -1,0 +1,14 @@
+.size{
+    color: blueviolet;
+    font-size: 50px;
+}
+
+#idsize{
+    color: chartreuse;
+    font-size: 80px;
+}
+
+div{
+    font-size: 20px;
+    color: aqua;
+}
